@@ -1,0 +1,104 @@
+body {
+    background-color: #294B79;
+    color: white;
+}
+
+header, nav, main, footer {
+    text-align: center;
+}
+
+
+nav a { 
+    padding: 15px;
+    padding-bottom: 4px;
+    font-size: 1.8em;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover { 
+    border-bottom: 2px solid #A2C1EB;
+    font-size: 2em;
+    transition: .9s; 
+}
+
+/*#home{*/
+/*    color: #1F85DE;*/
+/*}*/
+/*#cpp{*/
+/*    color: #1F85DE;*/
+/*}*/
+/*#py{*/
+/*    color: #1F85DE;*/
+/*}*/
+/*#java{*/
+/*    color: #1F85DE;*/
+/*}*/
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+footer p {
+    font-size: .7em;
+    color: gray;
+}
+
+table {
+    margin: 0px auto;
+}
+
+td {
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+
+td strong {
+    color: #0F1392;
+}
+
+#table-header {
+    background-color: #BCBCBC;
+    color: #294B79;
+}
+
+.table-row {
+    background-color: #E1E1E1;
+    color: #294B79;
+}
+
+ ul {
+     width:500px;
+     margin: 0 auto;
+     text-align: left;
+ }
+
+ 
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3.5em;
+    margin-bottom: 0px;
+}
+
+div h2 a {
+    color:#26941A;
+}
+
+div p a {
+    color: #26941A;
+}
+
+#pageGraphic {
+    border-radius: 20px;
+}
+
+div p {
+    box-shadow: 10px 10px 5px #5379AD;
+    border-radius: 10px;
+}
+
+mark {
+    background-color: #5379AD;
+}
+
