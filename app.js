@@ -1,5 +1,8 @@
 const express = require("express");
 const app = express();
+var faker = require('faker');
+
+var randomName = faker.name.findName(); // Rowan Nikolaus
 
 app.engine("html", require("ejs").renderFile);
 app.use(express.static("public"));
@@ -14,7 +17,8 @@ app.get("/cplusplus", function(req, res){
     
     // res.send("<h1>Mercury!</h1>");
     // console.log("in mercury");
-    res.render("cplusplus.ejs");
+    var founder = faker.name.findName() + "";
+    res.render("cplusplus.ejs", {"founder":founder});
 });
 
 app.get("/java", function(req, res){
@@ -28,11 +32,6 @@ app.get("/python", function(req, res){
     // res.send("<h1>Mars!</h1>");
     res.render("python.ejs");
 });
-
-
-// function currentPage(){
-    
-// }
 
 
 //server listener
